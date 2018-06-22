@@ -1,4 +1,4 @@
-class Glass(width: Int) {
+class Shaft(width: Int) {
     var state: MutableList<CharArray> = mutableListOf<CharArray>()
 
     init {
