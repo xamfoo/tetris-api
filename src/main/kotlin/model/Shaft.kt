@@ -7,7 +7,7 @@ class Shaft(val state: List<List<Block>>) {
 
     companion object {
         fun empty(width: Int, height: Int): Shaft {
-            return Shaft((0 until height).map { (0 until width).map { Block.empty } })
+            return Shaft((0 until height).map { (0 until width).map { Block.Empty } })
         }
     }
 }

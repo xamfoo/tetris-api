@@ -10,8 +10,8 @@ class ShaftTests {
         return Shaft(blocks.split('\n').map {
             it.map {
                 when (it) {
-                    ' ' -> Block.empty
-                    else -> Block.filled
+                    ' ' -> Block.Empty
+                    else -> Block.Filled
                 }
             }
         })
@@ -21,8 +21,8 @@ class ShaftTests {
         return Shape(blocks.split('\n').map {
             it.map {
                 when (it) {
-                    ' ' -> Block.empty
-                    else -> Block.filled
+                    ' ' -> Block.Empty
+                    else -> Block.Filled
                 }
             }
         })
